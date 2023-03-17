@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StudyBuddy">
+  <grid id="27dc6" binding="Background" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="897" height="438"/>
+    </constraints>
+    <properties>
+      <preferredSize width="900" height="900"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3def4" binding="Welcome" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <preferredSize width="450" height="350"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="67bc8" class="javax.swing.JButton" binding="continueBtn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="300" height="30"/>
+              <text value="Continue"/>
+            </properties>
+          </component>
+          <component id="f42ff" class="javax.swing.JTextPane" binding="welcomeTxtPane">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font name="Courier New" style="1"/>
+              <foreground color="-16777216"/>
+              <preferredSize width="250" height="100"/>
+              <text value="Welcome to the C.A.R.D grading app!&#10; &#10;You can input your grades for each subject, giving you the option at the end to do some study quiz's to improve subjects your struggling with."/>
+            </properties>
+          </component>
+          <component id="25e8f" class="javax.swing.JTextPane" binding="WelcomeTxtPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="             Welcome"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5c2fb" binding="Name" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <preferredSize width="450" height="350"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d8f76" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="3" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <minimumSize width="168" height="38"/>
+              <preferredSize width="80" height="38"/>
+              <text value="Name"/>
+            </properties>
+          </component>
+          <component id="e0999" class="javax.swing.JTextField" binding="surnameTxtField">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <minimumSize width="200" height="30"/>
+              <preferredSize width="150" height="30"/>
+            </properties>
+          </component>
+          <component id="1911" class="javax.swing.JButton" binding="NextBtnName">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <minimumSize width="200" height="30"/>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="645ef" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Please enter your surname."/>
+            </properties>
+          </component>
+          <component id="283fa" class="javax.swing.JButton" binding="backBtnName">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="3ca37" class="javax.swing.JTextField" binding="forenameTxtField">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="150" height="30"/>
+            </properties>
+          </component>
+          <component id="74c2e" class="javax.swing.JLabel" binding="nameLbl">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Please enter your forename."/>
+            </properties>
+          </component>
+          <component id="7fdf7" class="javax.swing.JButton" binding="confirmBtnName">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="5120a" class="javax.swing.JLabel" binding="fullNameLbl">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="5" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5e88" binding="DigitalSkillsSoftwareDev" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card3"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <preferredSize width="450" height="350"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="62f42" class="javax.swing.JLabel" binding="totalDigSkillsSoftware">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="10" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1cfd6" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <preferredSize width="440" height="38"/>
+              <text value="Digital Skills: Software Development "/>
+            </properties>
+          </component>
+          <component id="3e527" class="javax.swing.JComboBox" binding="DigSkillsSoftwareDevTheory">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+              <preferredSize width="220" height="30"/>
+            </properties>
+          </component>
+          <component id="4bb09" class="javax.swing.JLabel" binding="DigitalSkillsSoftwareLbl">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Please select your theory grade."/>
+            </properties>
+          </component>
+          <component id="43786" class="javax.swing.JLabel" binding="DigitalSkillsSoftwarePracticalLbl">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Please select your practical grade."/>
+            </properties>
+          </component>
+          <component id="aa536" class="javax.swing.JComboBox" binding="DigSkillsSoftwareDevPrac">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+              <preferredSize width="220" height="30"/>
+            </properties>
+          </component>
+          <component id="c14d0" class="javax.swing.JButton" binding="confirmBtnDigSkillsSoftware">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="559b5" class="javax.swing.JButton" binding="backBtnDigSkillsSoftware">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="c968f" class="javax.swing.JButton" binding="NextBtnDigSkillsSoftware">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="167f" class="javax.swing.JLabel" binding="DigSkillsSoftwareDevScoreLbl">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="5" bottom="5" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3642c" binding="DigitalSkillsCyber" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card4"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <preferredSize width="450" height="70"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9067f" class="javax.swing.JComboBox" binding="DigSkillsCyberGrade">
+            <constraints>
+              <grid row="1" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="636e2" class="javax.swing.JButton" binding="NextBtnCyber">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="e167c" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Digital Skills: Cyber Security"/>
+            </properties>
+          </component>
+          <component id="36422" class="javax.swing.JLabel" binding="dscsLbl">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="5" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e76ec" class="javax.swing.JButton" binding="confirmBtnDSCS">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="336a4" class="javax.swing.JButton" binding="BackBtnCyber">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="c06c5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Please select your grade."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bbe11" binding="DigitalSkillsComputerScience" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card13"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6e4a0" class="javax.swing.JButton" binding="nextBtnDigSkillsCompSci">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="12216" class="javax.swing.JButton" binding="backBtnDigSkillsCompSci">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="8cabd" class="javax.swing.JButton" binding="confirmBtnDigSkillsCompSci">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="96138" class="javax.swing.JComboBox" binding="DigSkillsCompSciGrade">
+            <constraints>
+              <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="fa793" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Please select your grade."/>
+            </properties>
+          </component>
+          <component id="c3101" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Digital Skills: Computer Science"/>
+            </properties>
+          </component>
+          <component id="69b7d" class="javax.swing.JLabel" binding="DigSkillsCompSciLbl">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="5" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6495b" binding="DigSkillsDataScience" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card5"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4c245" class="javax.swing.JLabel" binding="DigSkillsDataLbl">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Please select your grade."/>
+            </properties>
+          </component>
+          <component id="96dab" class="javax.swing.JComboBox" binding="DigSkillsDataGrade">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="696dd" class="javax.swing.JButton" binding="BackBtnData">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="5dde9" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Digital Skills: Data Science"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="137a3" class="javax.swing.JLabel" binding="DataLbl">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="57bd5" class="javax.swing.JButton" binding="confirmBtnDataScience">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="200" height="30"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="326b8" class="javax.swing.JButton" binding="NextBtnData">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="be0ad" binding="IoT" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card6"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f9271" class="javax.swing.JLabel" binding="iotTheoryLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Please select your theory grade."/>
+            </properties>
+          </component>
+          <component id="87e7f" class="javax.swing.JLabel" binding="iotPracticalLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Please select your practical grade."/>
+            </properties>
+          </component>
+          <component id="29c9d" class="javax.swing.JButton" binding="backButtonIoT">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="42161" class="javax.swing.JButton" binding="nextButtonIoT">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="db1e0" class="javax.swing.JComboBox" binding="iotPracticalGrade">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="9490e" class="javax.swing.JComboBox" binding="iotTheoryGrade">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="b0417" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Iot"/>
+            </properties>
+          </component>
+          <component id="32d14" class="javax.swing.JButton" binding="confirmBtnIoT">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="fbd0a" class="javax.swing.JLabel" binding="IotLbl">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="daad6" binding="NetworkInfrastructure" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card7"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4ca9d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Please select your theory grade."/>
+            </properties>
+          </component>
+          <component id="3ea85" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Please select your practical grade."/>
+            </properties>
+          </component>
+          <component id="46fe7" class="javax.swing.JComboBox" binding="networkTheory">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e0d32" class="javax.swing.JComboBox" binding="networkPractical">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="5ed67" class="javax.swing.JButton" binding="networkNextButton">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="4fb96" class="javax.swing.JButton" binding="networkBackButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="6e8ce" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value=" Network Infrastructure"/>
+            </properties>
+          </component>
+          <component id="8ce55" class="javax.swing.JButton" binding="confirmBtnNetworkInfrastructure">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="d5f48" class="javax.swing.JLabel" binding="NetworkLbl">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8fe52" binding="ComputerScience" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card8"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="41e94" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Please select your grade."/>
+            </properties>
+          </component>
+          <component id="8eae7" class="javax.swing.JComboBox" binding="compSciGrade">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="fef83" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value=" Computer Science"/>
+            </properties>
+          </component>
+          <component id="d5c84" class="javax.swing.JButton" binding="compSciBackButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="e9200" class="javax.swing.JButton" binding="confirmBtnComputerScience">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="6457a" class="javax.swing.JButton" binding="compSciNextButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="31fd3" class="javax.swing.JLabel" binding="compSciLbl">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ea933" binding="CloudComputing" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card9"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="de2ad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="16"/>
+              <text value="Please select your grade."/>
+            </properties>
+          </component>
+          <component id="c7432" class="javax.swing.JComboBox" binding="CloudComputingGrade">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="eda40" class="javax.swing.JButton" binding="BackBtnCloud">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="9b860" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Cloud Computing"/>
+            </properties>
+          </component>
+          <component id="baa" class="javax.swing.JButton" binding="NextBtnCloud">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="73903" class="javax.swing.JButton" binding="confirmBtnCloudComputing">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="83ff7" class="javax.swing.JLabel" binding="cloudCompLbl">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="36041" binding="SoftwareDevelopment" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card10"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f1f32" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="16"/>
+              <text value="Please select your theory grade."/>
+            </properties>
+          </component>
+          <component id="90f81" class="javax.swing.JComboBox" binding="SoftDevTheoryGrade">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="4fca2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="16"/>
+              <text value="Please select your practical grade."/>
+            </properties>
+          </component>
+          <component id="1278" class="javax.swing.JComboBox" binding="SoftDevPracticalGrade">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="4d5a7" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Software Development"/>
+            </properties>
+          </component>
+          <component id="13e29" class="javax.swing.JButton" binding="NextBtnSoftDev">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="9bb65" class="javax.swing.JButton" binding="BackBtnSoftDev">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="200" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="36118" class="javax.swing.JButton" binding="confirmBtnSoftwareDevelopment">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="74c0d" class="javax.swing.JLabel" binding="softDevLbl">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="da4e" binding="ProfessionalPractice" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card11"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d78ee" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Please select your grade."/>
+            </properties>
+          </component>
+          <component id="6cb34" class="javax.swing.JComboBox" binding="ProPractGrade">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="Pass."/>
+                <item value="Fail. (Attempt 1)"/>
+                <item value="Fail. (Attempt 2)"/>
+                <item value="Fail. (Attempt 3)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="3b38c" class="javax.swing.JButton" binding="BackBtnProfPractice">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="200" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+          <component id="39c09" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Professional Practice"/>
+            </properties>
+          </component>
+          <component id="f2538" class="javax.swing.JButton" binding="confirmBtnProfessionalPractice">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="8db45" class="javax.swing.JButton" binding="NextBtnProfPractice">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="220" height="30"/>
+              <text value="Next"/>
+            </properties>
+          </component>
+          <component id="7a32b" class="javax.swing.JLabel" binding="ProfPracticeLbl">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c3576" binding="Results" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card12"/>
+        </constraints>
+        <properties>
+          <background color="-9399905"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="11c66" class="javax.swing.JTextPane">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="0" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9277497"/>
+              <editable value="false"/>
+              <font size="24" style="1"/>
+              <text value="Results"/>
+            </properties>
+          </component>
+          <component id="f6e8d" class="javax.swing.JTextPane" binding="ResultsTxtPane">
+            <constraints>
+              <grid row="1" column="0" row-span="4" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="470" height="250"/>
+            </properties>
+          </component>
+          <component id="a6b5c" class="javax.swing.JButton" binding="backBtnResults">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="5" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <preferredSize width="200" height="30"/>
+              <text value="Back"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
