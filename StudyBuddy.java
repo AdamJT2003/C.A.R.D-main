@@ -96,6 +96,9 @@ public class StudyBuddy {
     private JLabel cloudCompLbl;
     private JLabel softDevLbl;
     private JLabel ProfPracticeLbl;
+    private JTextArea ResultsTxtArea;
+    private JTextArea ResultTxtArea2;
+    private JTextArea ResultsTxtArea3;
     public String surname;
     public String forename;
     public int total;
@@ -918,21 +921,46 @@ public class StudyBuddy {
                 String softwareDevPracInput = (String) SoftDevPracticalGrade.getSelectedItem();
                 String professionalPracticeInput = (String) ProPractGrade.getSelectedItem();
 
-                ResultsTxtPane.setText(fullName + "\n" +
-                                      "Your grades are;\n" +
-                                      "Digital Skills: Software Development Theory                  -   " + digSkillsSoftwareDevTheoryInput + "\n" +
-                                      "Digital Skills: Software Development Practical               -   " + digSkillsSoftwareDevPracInput + "\n" +
-                                      "Digital Skills: Cyber Security                                               -   " + digSkillsCyberInput + "\n" +
-                                      "Digital Skills: Computer Science                                       -   " + digSkillsCompSciInput + "\n" +
-                                      "Internet of Things Theory                                                     -   " + IoTTheoryInput + "\n" +
-                                      "Internet of Things Practical                                                  -   " + IoTPracticalInput + "\n" +
-                                      "Network Infrastructure Theory                                             -   " + networkTheoryInput + "\n" +
-                                      "Network Infrastructure Practical                                          -   " + networkPracticalInput + "\n" +
-                                      "Computer Science                                                                 -   " + compSciInput + "\n" +
-                                      "Cloud Computing                                                                   -   " + cloudCompInput + "\n" +
-                                      "Software Development Theory                                             -   " + softwareDevTheoryInput + "\n" +
-                                      "Software Development Practical                                          -   " + softwareDevPracInput + "\n" +
-                                      "Professional Practice                                                             -   " + professionalPracticeInput + "\n");
+                ResultsTxtArea.setText(fullName + "\n" +
+                                      "Your grades are;\n");
+
+
+
+                ResultsTxtArea.append("\nDigital Skills: Software Development Theory");
+                ResultsTxtArea.append("\nDigital Skills: Software Development Practical");
+                ResultsTxtArea.append("\nDigital Skills: Cyber Security");
+                ResultsTxtArea.append("\nDigital Skills: Computer Science");
+                ResultsTxtArea.append("\nInternet of Things Theory");
+                ResultsTxtArea.append("\nInternet of Things Practical");
+                ResultsTxtArea.append("\nNetwork Infrastructure Theory" );
+                ResultsTxtArea.append("\nNetwork Infrastructure Practical");
+                ResultsTxtArea.append("\nComputer Science");
+                ResultsTxtArea.append("\nCloud Computing");
+                ResultsTxtArea.append("\nSoftware Development Theory");
+                ResultsTxtArea.append("\nSoftware Development Practical");
+                ResultsTxtArea.append("\nProfessional Practice");
+
+                ResultTxtArea2.setText("\n\n");
+                ResultTxtArea2.append("\n   -   " + digSkillsSoftwareDevTheoryInput);
+                ResultTxtArea2.append("\n   -   " + digSkillsSoftwareDevPracInput);
+                ResultTxtArea2.append("\n   -   " + digSkillsCyberInput);
+                ResultTxtArea2.append("\n   -   " + compSciInput);
+                ResultTxtArea2.append("\n   -   " + IoTTheoryInput);
+                ResultTxtArea2.append("\n   -   " + IoTPracticalInput);
+                ResultTxtArea2.append("\n   -   " + networkTheoryInput);
+                ResultTxtArea2.append("\n   -   " + networkPracticalInput);
+                ResultTxtArea2.append("\n   -   " + compSciInput);
+                ResultTxtArea2.append("\n   -   " + cloudCompInput);
+                ResultTxtArea2.append("\n   -   " + softwareDevTheoryInput);
+                ResultTxtArea2.append("\n   -   " + softwareDevPracInput);
+                ResultTxtArea2.append("\n   -   " + professionalPracticeInput);
+
+                ResultsTxtArea3.setText("We have assigned each grade with a value to help calculate if you \nare on track to pass. After selecting and confirming a grade, we add \nthe number assigned to that grade to the total and if this total is \nabove our threshold of 31 then u are on track to pass, if below our \nthreshold of 31 then you may still be able to pass, however you are \ncurrently on course for a pass.");
+
+
+
+
+
             }
         });
 
