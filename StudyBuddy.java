@@ -350,7 +350,7 @@ public class StudyBuddy {
                 //Updates total and displays Digital Skills: Cyber Security total
                 total = total + DigSkillsCyberSecure;
                 dscsLbl.setText(String.valueOf(DigSkillsCyberSecure));
-hyuiygi
+
 
             }
         });
